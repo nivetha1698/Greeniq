@@ -1,9 +1,22 @@
+import { Routes, Route } from "react-router-dom";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+import Home from "./pages/Home";
+import Plants from "./pages/Plants";
+import PlantDetails from "./pages/PlantDetails";
+import Cart from "./pages/Cart";
+
 export default function App() {
   return (
-    <div className="min-h-screen bg-green-100 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-green-800">
-        Tailwind is working! 🌿
-      </h1>
+    <div className="min-h-screen bg-green-100">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/plants" element={<Plants />} />
+        <Route path="/plants/:id" element={<PlantDetails />} />
+        <Route path="/cart" element={<Cart />} />
+      </Routes>
     </div>
   );
 }
