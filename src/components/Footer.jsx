@@ -27,11 +27,7 @@ const Footer = () => {
           <h3 className="font-semibold text-green-700 mb-2">Newsletter</h3>
           <p className="text-sm mb-2">Get tips & deals straight to your inbox</p>
           <form className="flex">
-            <input
-              type="email"
-              placeholder="Your email"
-              className="w-full p-2 rounded-l-lg border border-gray-300 focus:ring-2 focus:ring-green-400 outline-none"
-            />
+            <input type="email" placeholder="Your email" className="w-full p-2 rounded-l-lg border border-gray-300 focus:ring-2 focus:ring-green-400 outline-none"/>
             <button className="bg-green-600 text-white px-4 rounded-r-lg hover:bg-green-700 transition">
               Subscribe
             </button>
