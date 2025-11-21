@@ -15,7 +15,7 @@ const Navbar = () => {
             <Link to="/" className="relative text-gray-700 font-medium after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-green-700 after:transition-all after:duration-300 hover:after:w-full">Home</Link>
             <Link to="/about" className="relative text-gray-700 font-medium after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-green-700 after:transition-all after:duration-300 hover:after:w-full">About</Link>
             <Link to="/categories" className="relative text-gray-700 font-medium after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-green-700 after:transition-all after:duration-300 hover:after:w-full">Plants</Link>
-            <Link to="/contact" className="relative text-gray-700 font-medium after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-green-700 after:transition-all after:duration-300 hover:after:w-full">Contact Us</Link>
+            <Link to="/contact" className="relative text-gray-700 font-medium after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-green-700 after:transition-all after:duration-300 hover:after:w-full">Contact</Link>
           </div>
 
          <div className="flex items-center space-x-4">

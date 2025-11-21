@@ -19,24 +19,23 @@ const About = () => {
       </section>
 
 
-      <section className="max-w-7xl mx-auto py-16 px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        <div>
-          <h2 className="text-3xl font-bold text-green-700 mb-4">Our Story</h2>
+      <section className="max-w-6xl mx-auto py-16 px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+       <div>
+        <h2 className="text-3xl font-bold text-green-700 font-serif mb-4">Our Story</h2>
           <p className="text-gray-700 mb-4">
-            GreenNest started with a simple mission: make homes and offices greener, healthier, and happier. We curate plants, seeds, and pots to help you create your own urban oasis.
+           GreenNest started with a simple mission: make homes and offices greener, healthier, and happier. We curate plants, seeds, and pots to help you create your own urban oasis.
           </p>
           <p className="text-gray-700">
-            We focus on quality, sustainability, and customer satisfaction. Every plant we sell is handpicked and nurtured with love.
+           We focus on quality, sustainability, and customer satisfaction. Every plant we sell is handpicked and nurtured with love.
           </p>
-        </div>
-        <img
-          src="/images/nursery1.jpg"
-          alt="Our nursery"
-          className="rounded-xl shadow-lg"
-        />
+       </div>
+
+       <div className="flex justify-center md:justify-end">
+        <img src="/images/nursery1.jpg" alt="Our nursery" className="rounded-xl shadow-lg w-72 md:w-96 object-cover"/>
+       </div>
       </section>
 
-      {/* Mission & Values */}
+
       <section className="py-16 px-4">
         <h2 className="text-3xl font-bold text-green-700 text-center mb-10">
           Our Mission & Values
