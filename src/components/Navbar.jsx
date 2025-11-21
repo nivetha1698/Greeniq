@@ -14,7 +14,7 @@ const Navbar = () => {
           <div className="hidden md:flex space-x-14">
             <Link to="/" className="relative text-gray-700 font-medium after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-green-700 after:transition-all after:duration-300 hover:after:w-full">Home</Link>
             <Link to="/about" className="relative text-gray-700 font-medium after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-green-700 after:transition-all after:duration-300 hover:after:w-full">About</Link>
-            <Link to="/categories" className="relative text-gray-700 font-medium after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-green-700 after:transition-all after:duration-300 hover:after:w-full">Plants</Link>
+            <Link to="/plants" className="relative text-gray-700 font-medium after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-green-700 after:transition-all after:duration-300 hover:after:w-full">Plants</Link>
             <Link to="/contact" className="relative text-gray-700 font-medium after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-green-700 after:transition-all after:duration-300 hover:after:w-full">Contact</Link>
           </div>
 
@@ -25,7 +25,7 @@ const Navbar = () => {
               <Link to="/signup" className="relative text-gray-700 font-medium after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-green-700 after:transition-all after:duration-300 hover:after:w-full">Sign Up</Link>
             </div>
             
-            <Link to="/cart" className="text-gray-700 hover:text-green-700 transition">
+            <Link to="" className="text-gray-700 hover:text-green-700 transition">
               <ShoppingCartIcon className="w-6 h-6" />
             </Link>
           </div>
