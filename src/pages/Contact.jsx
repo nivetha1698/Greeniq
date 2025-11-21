@@ -30,7 +30,7 @@ const Contact = () => {
       <Navbar />
 
       <section className="flex flex-col font-serif md:flex-row max-w-6xl mx-auto my-16">
-        <div className="md:w-1/2 p-10 flex flex-col justify-center items-start relative">
+        <div data-aos="fade-right" data-aos-duration="1000" className="md:w-1/2 p-10 flex flex-col justify-center items-start relative">
           <h1 className="text-2xl md:text-3xl font-extrabold text-green-700 mb-4">
             Contact Us
           </h1>
@@ -44,16 +44,16 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="md:w-1/2 p-10 flex flex-col justify-center bg-white rounded-3xl shadow-lg overflow-hidden">
+        <div data-aos="fade-left" data-aos-duration="1000" className="md:w-1/2 p-10 flex flex-col justify-center bg-white rounded-3xl shadow-lg overflow-hidden">
           <form onSubmit={handleSubmit} className="space-y-6">
             <input type="text" name="name" placeholder="Your Name" value={form.name} onChange={handleChange}
-              className="w-full p-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-green-400 outline-none"required/>
+              data-aos="fade-up" data-aos-delay="200" className="w-full p-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-green-400 outline-none"required/>
             <input type="email" name="email" placeholder="Your Email" value={form.email} onChange={handleChange}
-              className="w-full p-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-green-400 outline-none" required/>
+              data-aos="fade-up" data-aos-delay="300" className="w-full p-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-green-400 outline-none" required/>
             <textarea name="message" placeholder="Your Message" value={form.message} onChange={handleChange} rows="6"
-              className="w-full p-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-green-400 outline-none" required/>
-            <button type="submit" className="w-full bg-green-600 text-white py-4 rounded-xl font-semibold hover:bg-green-700 transform hover:scale-105 transition-all duration-300">
-              Send Message
+              data-aos="fade-up" data-aos-delay="400" className="w-full p-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-green-400 outline-none" required/>
+            <button type="submit" className="w-full bg-green-600 text-white py-4 rounded-xl font-semibold hover:bg-green-700 transform hover:scale-105 transition-all duration-300" data-aos="zoom-in" data-aos-delay="500">
+               Send Message
             </button>
           </form>
         </div>

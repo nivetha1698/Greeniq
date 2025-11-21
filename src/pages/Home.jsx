@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import CategoryCard from "../components/CategoryCard";
+import PlantList from "../components/PlantList";
 import PlantCard from "../components/PlantCard";
 
 const Home = () => {
@@ -20,27 +20,27 @@ const Home = () => {
          </a>
       </section>
       <section className="max-w-7xl mx-auto py-12 px-4">
-        <h2 className="text-3xl md:text-2xl font-extrabold text-green-700 mb-8 text-center">
+        <h2 data-aos="fade-up" className="text-3xl md:text-2xl font-extrabold text-green-700 mb-8 text-center">
          Shop by Category
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          <CategoryCard name="Indoor Plants" img="/images/indoor.jpg" />
-          <CategoryCard name="Outdoor Plants" img="/images/outdoor.jpg" />
-          <CategoryCard name="Pots" img="/images/pots.jpg" />
-          <CategoryCard name="Seeds" img="/images/seeds.jpg" />
+          <PlantList name="Indoor Plants" img="/images/indoor.jpg" />
+          <PlantList name="Outdoor Plants" img="/images/outdoor.jpg" />
+          <PlantList name="Pots" img="/images/pots.jpg" />
+          <PlantList name="Seeds" img="/images/seeds.jpg" />
         </div>
       </section>
 
       <section className="max-w-7xl mx-auto py-12 px-4">
-        <h2 className="text-3xl md:text-2xl font-extrabold text-green-700 mb-8 text-center">
+        <h2 data-aos="fade-up" className="text-3xl md:text-2xl font-extrabold text-green-700 mb-8 text-center">
           Our Picks for You
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-          <PlantCard name="Monstera" price={25} img="/images/monstera.jpg" />
-          <PlantCard name="Fiddle Leaf" price={30} img="/images/fiddle.jpg" />
-          <PlantCard name="Snake Plant" price={20} img="/images/snake.jpg" />
-          <PlantCard name="Peace Lily" price={28} img="/images/peace-lily.jpg" />
+          <PlantCard name="Monstera" img="/images/monstera.jpg" />
+          <PlantCard name="Fiddle Leaf" img="/images/fiddleLeaf.jpg" />
+          <PlantCard name="Snake Plant" img="/images/snakePlant.jpg" />
+          <PlantCard name="Peace Lily" img="/images/peaceLily.jpg" />
         </div>
       </section>
 
