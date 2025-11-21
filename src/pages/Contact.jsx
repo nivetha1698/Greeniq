@@ -38,8 +38,8 @@ const Contact = () => {
             Have questions or suggestions? We’d love to hear from you! Fill out the form and our team will respond as soon as possible.
           </p>
           <div className="text-gray-600 space-y-2">
-            <p>Email: support@greennest.com</p>
-            <p>Phone: +91 98765 43210</p>
+            <p>Email: nivetha9804@gmail.com</p>
+            <p>Phone: +91 00000 00000</p>
             <p>Address: 123 Green Street, Plant City, India</p>
           </div>
         </div>
