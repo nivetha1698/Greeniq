@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Plants from "./pages/Plants";
 import PlantDetails from "./pages/PlantDetails";
 import Cart from "./pages/Cart";
+import About from "./pages/About";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/plants" element={<Plants />} />
         <Route path="/plants/:id" element={<PlantDetails />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </div>
   );

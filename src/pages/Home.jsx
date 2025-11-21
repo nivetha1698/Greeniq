@@ -1,6 +1,5 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import SearchBar from "../components/SearchBar";
 import CategoryCard from "../components/CategoryCard";
 import PlantCard from "../components/PlantCard";
 
@@ -11,7 +10,6 @@ const Home = () => {
      <section className="relative w-full min-h-screen flex flex-col items-center justify-center text-center overflow-hidden"
        style={{ backgroundImage: "url('/images/plant1.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}>
        <div className="absolute inset-0 bg-black/50 z-0"></div>
-        <div className="absolute inset-0 bg-[url('/images/leaf-pattern.png')] bg-no-repeat bg-center bg-contain opacity-10 pointer-events-none z-0"></div>
          <h1 className="relative z-10 text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-emerald-600 drop-shadow-xl mb-4">
            Green Your Space
          </h1>
