@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="min-h-screen bg-gradient-to-b from-[#fafafa] via-[#f5f5f5] to-[#eeeeee]">
+    <footer className="bg-gradient-to-b from-[#fafafa] via-[#f5f5f5] to-[#eeeeee]">
       <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-700">
         <div>
           <h3 className="font-extrabold text-green-700 text-lg mb-4 uppercase tracking-wide">
@@ -24,15 +24,16 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="/plans" className="hover:text-green-800 transition-colors duration-300 font-medium">
-                Plans
+              <a href="/about" className="hover:text-green-800 transition-colors duration-300 font-medium">
+                About
               </a>
             </li>
             <li>
-              <a href="/categories" className="hover:text-green-800 transition-colors duration-300 font-medium">
-                Categories
+              <a href="/plans" className="hover:text-green-800 transition-colors duration-300 font-medium">
+                Plants
               </a>
             </li>
+            
             <li>
               <a href="/contact" className="hover:text-green-800 transition-colors duration-300 font-medium">
                 Contact
