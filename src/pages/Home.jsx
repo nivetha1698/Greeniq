@@ -6,21 +6,25 @@ import PlantCard from "../components/PlantCard";
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-green-50">
-      <Navbar />
-      <section className="bg-green-100 py-16 text-center">
-        <h1 className="text-4xl font-bold text-green-800 mb-4">Bring Nature Home 🌿</h1>
-        <p className="text-gray-700 mb-6">Discover beautiful indoor & outdoor plants</p>
-        <a href="/plans" className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition">Shop Now</a>
+   <div className="min-h-screen bg-gradient-to-b from-[#fafafa] via-[#f5f5f5] to-[#eeeeee]">
+     <Navbar />
+     <section className="relative w-full min-h-screen flex flex-col items-center justify-center text-center overflow-hidden"
+       style={{ backgroundImage: "url('/images/plant1.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}>
+       <div className="absolute inset-0 bg-black/50 z-0"></div>
+        <div className="absolute inset-0 bg-[url('/images/leaf-pattern.png')] bg-no-repeat bg-center bg-contain opacity-10 pointer-events-none z-0"></div>
+         <h1 className="relative z-10 text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-emerald-600 drop-shadow-xl mb-4">
+           Green Your Space
+         </h1>
+         <p className="relative z-10 text-gray-100 text-lg md:text-xl max-w-2xl mx-auto drop-shadow-md mb-6">
+            Handpicked plants to transform your space into a living sanctuary</p>
+         <a href="/plants" className="relative z-10 inline-block bg-emerald-600 text-white px-8 py-3 rounded-lg shadow-lg hover:bg-emerald-700 hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+             Shop Now
+         </a>
       </section>
-
-      <div className="max-w-7xl mx-auto mt-6 px-4">
-        <SearchBar />
-      </div>
-
-      {/* Categories */}
       <section className="max-w-7xl mx-auto py-12 px-4">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-6">Shop by Category</h2>
+        <h2 className="text-3xl md:text-2xl font-extrabold text-green-700 mb-8 text-center">
+         Shop by Category
+        </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           <CategoryCard name="Indoor Plants" img="/images/indoor.jpg" />
           <CategoryCard name="Outdoor Plants" img="/images/outdoor.jpg" />
@@ -29,12 +33,16 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Featured Plans */}
       <section className="max-w-7xl mx-auto py-12 px-4">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-6">Featured Plans</h2>
+        <h2 className="text-3xl md:text-2xl font-extrabold text-green-700 mb-8 text-center">
+          Our Picks for You
+        </h2>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           <PlantCard name="Monstera" price={25} img="/images/monstera.jpg" />
           <PlantCard name="Fiddle Leaf" price={30} img="/images/fiddle.jpg" />
+          <PlantCard name="Snake Plant" price={20} img="/images/snake.jpg" />
+          <PlantCard name="Peace Lily" price={28} img="/images/peace-lily.jpg" />
         </div>
       </section>
 
