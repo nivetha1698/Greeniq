@@ -14,7 +14,7 @@ const About = () => {
         <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" className="text-gray-700 max-w-3xl mx-auto text-lg md:text-xl font-serif leading-relaxed">
           Bringing nature closer to your home with carefully selected indoor & outdoor plants, pots, and gardening essentials. 
           At GreenNest, we believe in creating a living space that nurtures your well-being, brightens your surroundings, and inspires your love for nature. 
-          Discover our wide variety of plants, planters, and gardening tools — handpicked to add freshness and life to every corner of your home.
+          Discover our wide variety of plants, planters, and gardening tools handpicked to add freshness and life to every corner of your home.
        </p>
       </section>
 
